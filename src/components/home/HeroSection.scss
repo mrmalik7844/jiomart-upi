@@ -1,0 +1,98 @@
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+// .carousel {
+//   position: relative;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   overflow: hidden;
+// }
+
+// .carousel img {
+//   width: 100%;
+//   height: auto;
+//   display: none;
+// }
+
+.carousel img.active {
+  display: block;
+}
+.carousel {
+  position: relative;
+  width: 100%;
+  display: flex;
+  // overflow: hidden;
+  transition: transform 0.5s ease; /* Add transition for smooth sliding */
+}
+
+.carousel img {
+  width: 100%;
+  height: auto;
+}
+
+/* Ensure only the active image is visible */
+// .carousel img:not(.active) {
+//   display: none;
+// }
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(255, 255, 255, 0.6588235294);
+  color: #0c5273;
+  width: 5rem;
+  height: 5rem;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-inline: 1rem;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+}
+
+.indicators {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.indicators span {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: gray;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.indicators span.active {
+  background-color: black;
+}
+
+@media only screen and (max-width: 1200px) {
+}
+@media only screen and (max-width: 768px) {
+  .prev,
+  .next {
+    display: none;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .prev,
+  .next {
+    display: none;
+  }
+}

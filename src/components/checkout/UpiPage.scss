@@ -1,0 +1,44 @@
+.jm-checkout-upi-button-section {
+  .jm-checkout-upi-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      font-size: 2rem;
+      padding-block: 3rem;
+      color: #00b259;
+      font-weight: 600;
+    }
+  }
+  .jm-checkout-upi-button-container {
+    padding-inline: 2rem;
+    padding-bottom: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    .jm-checkout-upi-button {
+      display: flex;
+      align-items: center;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      gap: 2rem;
+      padding-block: 1rem;
+      padding-left: 4rem;
+      cursor: pointer;
+      img {
+        width: 4rem;
+      }
+      p {
+        font-size: 2rem;
+      }
+    }
+    .jm-selected-upi {
+      box-shadow: inset 0 0 0 1.2px #0078ad;
+      //   border: 2px solid #0078ad;
+    }
+  }
+}
+
+.jm-product-upi-banner {
+  width: 100%;
+}
