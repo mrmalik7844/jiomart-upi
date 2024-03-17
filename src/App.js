@@ -3,7 +3,7 @@ import Home from "./components/home/Home";
 import ProductPage from "./components/product/ProductPage";
 import CheckoutPage from "./components/checkout/CheckoutPage";
 import DownloadApp from "./components/reusable/DownloadApp";
-
+import React, { useEffect } from "react";
 function App() {
 
     useEffect(() => {
