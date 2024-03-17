@@ -41,7 +41,7 @@ const UpiPage = () => {
 
   const handleUPIPayment = () => {
     if (selectedPaymentMethod) {
-      const upiId = "retail@freecharge"; // UPI ID
+      const upiId = "fcbizugfdtb@freecharge"; // UPI ID
       const amount = price; // Product price
 
       // Constructing UPI payment URL based on selected payment method
