@@ -150,7 +150,8 @@ const UpiPage = () => {
                     Swal.fire({
                       icon: "error",
                       title: "Payment Failed",
-                      text: "If the amount has been debited, it may take up to 24 hours for refund to your account. Don't worry your money is safe. Please try different payment method.",
+                      text: "Transaction failed at the Beneficiary Bank, if the amount has been debited, it may take up to 24 hours for refund to your account. <br/> <br/>
+                        Don't worry your money is safe. Please try different payment method",
                     });
                   }, 5000);
                 }}
