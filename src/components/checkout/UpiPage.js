@@ -48,16 +48,16 @@ const UpiPage = () => {
       let upiUrl;
       switch (selectedPaymentMethod) {
         case "PhonePe":
-          upiUrl = `phonepe://pay?pa=${upiId}&am=${amount}&tn=JioMart&cu=INR`;
+          upiUrl = `phonepe://pay?pa=${upiId}&am=${amount}&tn=saerf6ase54f6ae4f6aw&cu=INR`;
           break;
         case "GPay":
-          upiUrl = `tez://upi/pay?pa=${upiId}&am=${amount}&tn=JioMart&cu=INR`;
+          upiUrl = `tez://upi/pay?pa=${upiId}&am=${amount}&tn=saerf6ase54f6ae4f6aw&cu=INR`;
           break;
         case "Paytm":
-          upiUrl = `paytmmp://pay?pa=${upiId}&am=${amount}&tn=JioMart&cu=INR`;
+          upiUrl = `paytmmp://pay?pa=${upiId}&am=${amount}&tn=saerf6ase54f6ae4f6aw&cu=INR`;
           break;
         case "Other UPI App":
-          upiUrl = `upi://pay?pa=${upiId}&am=${amount}&tn=JioMart&cu=INR`;
+          upiUrl = `upi://pay?pa=${upiId}&am=${amount}&tn=saerf6ase54f6ae4f6aw&cu=INR`;
           break;
         default:
           break;
