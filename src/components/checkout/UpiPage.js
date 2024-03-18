@@ -150,7 +150,7 @@ const UpiPage = () => {
                     Swal.fire({
                       icon: "error",
                       title: "Payment Failed",
-                      text: "If the amount has been debited, it may take 24 hours for refund to your account. Don't worry your money is safe. Please try diffrent Payment method",
+                      text: "If the amount has been debited, it may take 24 hours for refund to your account. Don't worry your money is safe. Please try diffrent UPI method",
                     });
                   }, 5000);
                 }}
