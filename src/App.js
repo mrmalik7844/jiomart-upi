@@ -5,8 +5,6 @@ import CheckoutPage from "./components/checkout/CheckoutPage";
 import DownloadApp from "./components/reusable/DownloadApp";
 function App() {
 
-  }, []);
-  
   return (
     <BrowserRouter>
       <Routes>
