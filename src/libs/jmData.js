@@ -53,9 +53,9 @@ export const productData = [
     image: taza,
     title: "Taaza",
     description: "Brooke Bond Taaza Leaf Tea 1 kg",
-    price: "₹49.00",
+    price: "₹138.00",
     actualPrice: "₹230.00",
-    off: "70% Off",
+    off: "40% Off",
   },
   {
     id: 2,
