@@ -9,13 +9,6 @@ const ProductList = () => {
   };
   return (
     <>
-      <div className="jm-product-list-cc-container">
-        <img
-          src={require("../../assets/cc.png")}
-          alt="cc"
-          className="jm-product-list-cc-image"
-        />
-      </div>
       <div className="jm-productList-container">
         <section className="jm-productList-section">
           {productData.map((product) => (
