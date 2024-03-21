@@ -89,7 +89,7 @@ export const productData = [
     image: ghee,
     title: "sri sri tattva",
     description: "Sri 1L Shuddh Ghee Pack of 2",
-    price: "₹2365.00",
+    price: "₹365.00",
     actualPrice: "₹1,460.00",
     off: "75% Off",
   },
